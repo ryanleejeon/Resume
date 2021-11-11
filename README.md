@@ -25,7 +25,12 @@ August 2012 – June 2018
 
 ◦ **Piglet Identifier and Tracking:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python.
 
+<img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> <img alt="1" src="https://user-images.githubusercontent.com/69263707/141250809-e386d872-a132-4327-8092-8585b041a11b.png" width="420">
+
+
 ◦ **Machine Learning:** Implemented a Resnet34 classification model and a YOLOv5 object detection model on a custom image data set using image segmentation to strategize computer vision based solutions for pose estimation.
+
+
 
 ◦ **Estimation of Pig Body Pose:** Determined that body pose can be estimated by training the custom object detection model to identify the coordinates of the boundary box that encloses the pig head, to approximate the direction the pig was facing, by determining the side of the pig’s boundary box closest to the centroid of the head.
 
