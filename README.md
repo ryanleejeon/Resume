@@ -48,10 +48,11 @@ August 2012 – June 2018
   
   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256211-5299f987-9591-4164-b061-3a3278fa5a7e.png" width="400">
   
--Image for boundary box coming soon-
+
 
 </p>
 
+-Image for boundary box coming soon-
 
 
 
@@ -85,7 +86,7 @@ Here is it segmented!
 
 
 ### 2) Thermal Characterization of Heat Treated Swine
-◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly trips to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data.
+◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly six hour road trips during the summer, to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data. 
 
 ◦ **Data Collection:** Created a polished time series dataset by pre-processing data and imputing missing values.
 
@@ -94,9 +95,11 @@ air temperature on six different body parts of the pig, for three different pig 
   
   Here is a plot to illustrate a small part of the time series data I was working with
 <p align="center">
-   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258697-9444b819-836c-4c04-b8b1-38dc7fdc8f17.png" width="650">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141353586-bc5bb7dd-82f6-42cc-8f75-0dff8e7bb0b2.png" width="650">
 
 </p>
+
+
 
 
 ### 3) Estimating Body Condition and Fitness of Swine using Computer Vision
@@ -123,11 +126,23 @@ Here is an award I received for my poster competition. I also was awarded the 3M
 
 ## Masters Thesis: 
 ### Genetic Indicators for Swine Fitness and Body Condition under Stress 
-◦ **Correlations between Swine Fitness and Genetics:** Implemented statistical techniques on a large immunology dataset to demonstrate that a genetic mutation in swine was significantly associated with higher fitness, body fat percentage, resilience, and health status in pigs.
+◦ **Correlations between Swine Fitness and Genetics:** Implemented statistical techniques on R to a large immunology dataset to demonstrate that a genetic mutation in swine was significantly associated with higher fitness, body fat percentage, resilience, and health status in pigs.
 
-◦ **Heritability of Swine Fitness:** Collaborated with a team to estimate the heritability of over 100 physiological traits in pigs to determine the genetic correlation between disease traits and immune cell proliferation from a novel mitogen stimulation assay.
+Here is an example of some code I ran to show that a particular genotype (combinatination of alleles) in the WUR gene was associated with higher weight gain in pigs:
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141354421-c5460d6f-6a7b-4616-b77e-79ab2d9c7340.png" width="450">
+
+</p>
 
 
+
+◦ **Heritability of Swine Fitness:** Collaborated with a team to estimate the heritability of over 100 physiological traits in pigs to determine the genetic correlation between disease traits and immune cell proliferation from a novel mitogen stimulation assay. *Heritability is estimated from the regression of offspring phenotype on the average phenotype of the parents*
+
+Here is an example figure from my Masters dissertation on calculating heritability of certain traits
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141355085-6a802a5f-4bc3-4075-9f16-3c5ba8318eae.png" width="450">
+
+</p>
 
 
 ## Side Projects
@@ -150,7 +165,13 @@ Here is an award I received for my poster competition. I also was awarded the 3M
 
 </p>
 
-• **Automated Piglet Wellbeing Dashboard:** Designed an automated HVAC control dashboard for regulating ideal piglet temperatures on C++ using a PixyCam sensor and various different environmental sensors to prevent heat stress by holistically regulating the overall condition of the piglet. Increased temperatures and humidity would turn on an AC unit, while decreased temperatures would turn on a central heating pad for the piglets.
+• **Automated Piglet Wellbeing Dashboard:** Designed an computer vision based HVAC control dashboard for regulating ideal piglet temperatures on C++ using a PixyCam sensor and various different environmental sensors to prevent heat stress by holistically regulating the overall condition of the piglet. Increased temperatures and humidity would turn on an AC unit, while decreased temperatures would turn on a central heating pad for the piglets.
+
+Here is a schematic of the Arduino hardware that I built.
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141355285-671ab3b7-f8d6-4778-b4d9-646788bc96c3.png" width="650">
+
+</p>
 
 
 • **Automated Fashion Color Palette:** Currently developing a sports fashion data mining program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender). Here is a subset of my dataset that I was able to create just from the Nike website.
