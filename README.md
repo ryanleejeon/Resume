@@ -171,17 +171,18 @@ Here is a schematic of the Arduino hardware that I built.
 <p align="center">
    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141355597-f2fa88ec-cd39-4cde-b58d-a5cb6475da7f.png" width="650">
 
+
 </p>
 
 
 
-• **Automated Fashion Color Palette:** Currently developing a sports fashion data mining program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender). Here is a subset of my dataset that I was able to create just from the Nike website.
+• **Automated Fashion Color Palette:** Currently developing a sports fashion data mining program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender). Here are two barplots I created just from mining the Nike website. You can see that the colors most common in cleats are brighter from those in skateboarding shoes, which I thought used more muted colors.  
 
 <p align="center">
-   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141259455-b559f0b1-1e2c-410d-a8df-9571fe30e1da.png" width="650">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141364839-c3608e17-66ef-4793-bf3e-f535f4ca6f90.png" width="450">
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141364841-aed4c6d6-3a07-4a88-a9a5-dd252ab46a11.png" width="450">
 
 </p>
-
 
 
 ## Publications
