@@ -25,7 +25,23 @@ air temperature on six different body parts of the pig, for three different pig 
 
 ◦ **Optimized Phenotyping:** Developed a geometric algorithm that demonstrated higher speed, precision (0.97), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
 
-## Genetic Indicators for Swine Fitness and Body Condition under Stress Iowa State University Graduate Research Assistant August 2018 - June 2020
+## Genetic Indicators for Swine Fitness and Body Condition under Stress 
 ◦ **Correlations between Swine Fitness and Genetics:** Implemented statistical techniques on a large immunology dataset to demonstrate that a genetic mutation in swine was significantly associated with higher fitness, body fat percentage, resilience, and health status in pigs.
 
 ◦ **Heritability of Swine Fitness:** Collaborated with a team to estimate the heritability of over 100 physiological traits in pigs to determine the genetic correlation between disease traits and immune cell proliferation from a novel mitogen stimulation assay.
+
+
+## Programming Languages: 
+Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Seaborn, etc), R (dplyr, ggplot2, lme4, etc), UNIX commands (Basic), Hive (Basic), SQL, Microsoft Office.
+
+## Side Projects
+• **LivestockCV:** Published an open source python library for those new to computer vision, undergraduates, veterinarians or animal scientists who wish to implement computer vision strategies on image and video of livestock animals.
+
+• **Apple Watch Body Fat Percentage Tracker:** Visualization of body fat percent changes over a year, regressed against aggregated monthly averages of cardio using the Apple Watch API. Determined through a correlation matrix that increased cardio was associated with decreased body fat percentage. Developed code to further analyze personal cardiovascular activity recognition and classification over different sports and activities.
+
+• **Web Scraping Indeed.com:** Developed a user defined function to web scrape Indeed.com for specified jobs, locations, and important keywords. Outputs a .csv file of the job title, company name, job description, and the indeed.com job posting URL of the first 200 job entries. The job descriptions were further parsed using NLTK to remove stop words and output a histogram of the top twenty most frequently used words in the job description.
+
+• **Automated Piglet Wellbeing Dashboard:** Designed an automated HVAC control dashboard for regulating ideal piglet temperatures on C++ using a PixyCam sensor and various different environmental sensors to prevent heat stress by holistically regulating the overall condition of the piglet. Increased temperatures and humidity would turn on an AC unit, while decreased temperatures would turn on a central heating pad for the piglets.
+
+• **Automated Fashion Color Palette:** Currently developing a sports fashion passion project program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender).
+
