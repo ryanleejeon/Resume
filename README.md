@@ -169,9 +169,10 @@ Here is an example figure from my Masters dissertation on calculating heritabili
 
 Here is a schematic of the Arduino hardware that I built.
 <p align="center">
-   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141355285-671ab3b7-f8d6-4778-b4d9-646788bc96c3.png" width="650">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141355597-f2fa88ec-cd39-4cde-b58d-a5cb6475da7f.png" width="650">
 
 </p>
+
 
 
 • **Automated Fashion Color Palette:** Currently developing a sports fashion data mining program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender). Here is a subset of my dataset that I was able to create just from the Nike website.
