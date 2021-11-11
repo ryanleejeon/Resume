@@ -48,26 +48,36 @@ Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Sea
 ## Publications
 • **Effect of a Genetic Marker for the GBP5 Gene on Resilience to a Polymicrobial Natural Disease Challenge in Pigs:** https://doi.org/10.1016/j.livsci.2021.104399
 
-• **An Introduction to Automated Visual Sensemaking for Animal Production Systems:** hhttps://elibrary.asabe.org/abstract.asp?aid=52179
+• **An Introduction to Automated Visual Sensemaking for Animal Production Systems:** https://elibrary.asabe.org/abstract.asp?aid=52179
 
 • **Proliferation of Peripheral Blood Mononuclear Cells From Healthy Piglets After Mitogen Stimulation as Indicators of Disease Resilience:** https://doi.org/10.1093/jas/skab084
 
 ## Conference Presentations and Professional Seminars
+
 • **Automated Visual Angle Measurements in Gilt Selection:** ASABE Annual International Meeting, July 12, 2021
+
 • **Three Minute Thesis Competition:** Iowa State University, December 1st, 2020
+
 • **Genetic Indicators for Disease Resilience:** Masters Thesis Seminar, Iowa State University, March 13, 2020
+
 • **Effect of Genotype at a Genetic Marker for GBP5 on Resilience to a Polymicrobial Natural Disease
 Challenge in Pigs:** Plant and Animal Genome (PAG) Conference, San Diego, California, January 11-15, 2020
+
 • **The Proliferation of Blood Mononuclear Cells in Early Age and Healthy Piglets after Mitogen
 Stimulation, as a Possible Indicator of Disease Resilience in Pigs:** Iowa State University, November 20, 2019
+
 • **Effect of Genotype at a Genetic Marker for GBP-5 on Resilience to a Polymicrobial Natural Disease
 Challenge in Pigs:** North American PRRS Symposium, Chicago, Illinois, November 2-3, 2019
+
 • **Effect of Genotype at a GBP-5 Marker on Resilience to a Polymicrobial Natural Disease Challenge in
 Pigs:** American Society of Animal Science (ASAS) Midwest Section, Omaha, Nebraska, March 11-13, 2019
+
 • **Recyclability of Inedible Plant Biomass:** National Aeronautics and Space Administration (NASA), Kennedy Space
 Station, Florida, March 14th, 2016
 
 ## Presentation Awards
 • **ASABE Student Presentation Competition:** ASABE Annual International Meeting, July 12, 2021
+
 • **First Place (Virtual), Three Minute Thesis:** Iowa State University, December 1st, 2020
+
 • **Elanco Animal Health Travel Fellowship:** North American PRRS Symposium, Chicago, Illinois, November 3, 2019
