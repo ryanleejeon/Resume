@@ -23,19 +23,65 @@ August 2012 – June 2018
 #### June 2021 - Present
 
 
-◦ **Piglet Identifier and Tracking:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python.
+◦ **Piglet Identifier and Tracking:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
 
-<img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> <img alt="1" src="https://user-images.githubusercontent.com/69263707/141250809-e386d872-a132-4327-8092-8585b041a11b.png" width="420">
+<p align="center">
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> 
+  
+  <img alt="1" src="https://user-images.githubusercontent.com/69263707/141250809-e386d872-a132-4327-8092-8585b041a11b.png" width="420">
+
+</p>
 
 
-◦ **Machine Learning:** Implemented a Resnet34 classification model and a YOLOv5 object detection model on a custom image data set using image segmentation to strategize computer vision based solutions for pose estimation.
+◦ **Machine Learning:** Implemented a Resnet34 classification model and a YOLOv5 object detection model on a custom image data set using image segmentation to strategize computer vision based solutions for pose estimation. Below are results from using a custom pig ear detector, to assess the ability to use the pig head as a clue to estimating the pose of the animal.
 
-<img alt="3" src="https://user-images.githubusercontent.com/69263707/141251461-35aead94-e8b7-4b55-a7da-0f79f2722d5b.jpeg" width="200"><img alt="3" src="https://user-images.githubusercontent.com/69263707/141251377-823b3dcb-3b0c-41de-9fa5-31f3c213d8a0.jpeg" width="200">
+<p align="center">
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251461-35aead94-e8b7-4b55-a7da-0f79f2722d5b.jpeg" width="200">
+  
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251377-823b3dcb-3b0c-41de-9fa5-31f3c213d8a0.jpeg" width="200">
+</p>
 
 
 ◦ **Estimation of Pig Body Pose:** Determined that body pose can be estimated by training the custom object detection model to identify the coordinates of the boundary box that encloses the pig head, to approximate the direction the pig was facing, by determining the side of the pig’s boundary box closest to the centroid of the head.
+<p align="center">
+    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256208-6a437048-849d-4760-aa04-6d75a0f87d7a.png" width="200">
+  
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256211-5299f987-9591-4164-b061-3a3278fa5a7e.png" width="200">
+Image for boundary box coming soon from the head location outputs
+
+</p>
+
+
+
 
 ◦ **Meta: Augmented Reality in Livestock:** Developing a program to superimpose a segmented pig image onto a rendered pig to estimate body condition and fitness of the animal, from only one side view. This creative solution bypasses many problems associated with traditional computer vision based phenotyping in the livestock industry.
+
+
+Here is an example of an RGB image we used
+
+<p align="center">
+    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141257769-571f0764-7a50-4fdb-973e-378c8cf3bf3d.jpg" width="350">
+</p>
+
+
+Here is what it looks like in RGB-D!
+<p align="center">
+    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141257780-b685438b-fba5-4059-9650-efd02e34f578.png" width="350">
+</p>
+
+
+Here is the tricky part- we got to mask out the pig to get a clean segmented image. Luckily we have OpenCV functions on Python. 
+Here is it segmented!
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258311-ffdb49f5-b586-4c40-b019-6690bb89c3fb.jpg" width="350">
+
+</p>
+
+
+
+
+
 
 ### 2) Thermal Characterization of Heat Treated Swine
 ◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly trips to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data.
@@ -44,11 +90,27 @@ August 2012 – June 2018
 
 ◦ **Time Series Analysis:** Conducted the method of least-squares on R to statistically determine the impact of hot
 air temperature on six different body parts of the pig, for three different pig body weight groups, on two different pig housing conditions, over four different periods of time.
+  
+  Here is a plot to illustrate a small part of the time series data I was working with
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258697-9444b819-836c-4c04-b8b1-38dc7fdc8f17.png" width="350">
+
+</p>
+
 
 ### 3) Estimating Body Condition and Fitness of Swine using Computer Vision
 ◦ **Feature Extraction:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry.
 
+
 ◦ **Optimized Phenotyping:** Developed a geometric algorithm that demonstrated higher speed, precision (0.97), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
+
+Here is an award I received for my poster competition. I also was awarded the 3MT award for my graduate seminar course for this presentation. 
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258975-28b6d495-7776-4883-a256-6235049ad090.jpeg" width="350">
+
+</p>
+
 
 ## Masters Thesis: 
 ### Genetic Indicators for Swine Fitness and Body Condition under Stress 
