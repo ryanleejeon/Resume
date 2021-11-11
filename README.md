@@ -30,6 +30,7 @@ August 2012 – June 2018
 
 ◦ **Machine Learning:** Implemented a Resnet34 classification model and a YOLOv5 object detection model on a custom image data set using image segmentation to strategize computer vision based solutions for pose estimation.
 
+<img alt="3" src="https://user-images.githubusercontent.com/69263707/141251461-35aead94-e8b7-4b55-a7da-0f79f2722d5b.jpeg" width="200"><img alt="3" src="https://user-images.githubusercontent.com/69263707/141251377-823b3dcb-3b0c-41de-9fa5-31f3c213d8a0.jpeg" width="200">
 
 
 ◦ **Estimation of Pig Body Pose:** Determined that body pose can be estimated by training the custom object detection model to identify the coordinates of the boundary box that encloses the pig head, to approximate the direction the pig was facing, by determining the side of the pig’s boundary box closest to the centroid of the head.
