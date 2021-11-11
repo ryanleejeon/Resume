@@ -1,7 +1,26 @@
-# Ryan Jeon, PhD Student
+# Ryan Jeon, Ph.D. Student, Computer Vision and Data Science
 
-## Computer Vision Based Activity Recognition of Swine 
-#### Iowa State University Graduate Research Assistant June 2021 - Present
+## Programming Languages: 
+Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Seaborn, etc), R (dplyr, ggplot2, lme4, etc), UNIX commands (Basic), Hive (Basic), SQL, Microsoft Office.
+
+## Education:
+**Doctor of Philosophy (Ph.D.) in Agricultural Engineering** \
+Iowa State University \
+June 2020 – December 2022
+
+**Masters in Genetics and Genomics**\
+Iowa State University \
+August 2018 – June 2020
+
+**Bachelor of Science in Bioengineering** \
+The Ohio State University \
+August 2012 – June 2018
+
+
+## Ph.D. Research Projects:
+### 1) Computer Vision Based Activity Recognition through Pose Estimation of Commercial Swine
+#### Iowa State University Graduate Research Assistant 
+#### June 2021 - Present
 
 
 ◦ **Piglet Identifier and Tracking:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python.
@@ -12,7 +31,7 @@
 
 ◦ **Meta: Augmented Reality in Livestock:** Developing a program to superimpose a segmented pig image onto a rendered pig to estimate body condition and fitness of the animal, from only one side view. This creative solution bypasses many problems associated with traditional computer vision based phenotyping in the livestock industry.
 
-## Thermal Characterization of Heat Treated Swine Iowa State University Graduate Research Assistant June 2021 - Present
+### 2) Thermal Characterization of Heat Treated Swine
 ◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly trips to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data.
 
 ◦ **Data Collection:** Created a polished time series dataset by pre-processing data and imputing missing values.
@@ -20,19 +39,19 @@
 ◦ **Time Series Analysis:** Conducted the method of least-squares on R to statistically determine the impact of hot
 air temperature on six different body parts of the pig, for three different pig body weight groups, on two different pig housing conditions, over four different periods of time.
 
-## Estimating Body Condition and Fitness of Swine using Computer Vision
+### 3) Estimating Body Condition and Fitness of Swine using Computer Vision
 ◦ **Feature Extraction:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry.
 
 ◦ **Optimized Phenotyping:** Developed a geometric algorithm that demonstrated higher speed, precision (0.97), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
 
-## Genetic Indicators for Swine Fitness and Body Condition under Stress 
+## Masters Thesis: 
+### Genetic Indicators for Swine Fitness and Body Condition under Stress 
 ◦ **Correlations between Swine Fitness and Genetics:** Implemented statistical techniques on a large immunology dataset to demonstrate that a genetic mutation in swine was significantly associated with higher fitness, body fat percentage, resilience, and health status in pigs.
 
 ◦ **Heritability of Swine Fitness:** Collaborated with a team to estimate the heritability of over 100 physiological traits in pigs to determine the genetic correlation between disease traits and immune cell proliferation from a novel mitogen stimulation assay.
 
 
-## Programming Languages: 
-Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Seaborn, etc), R (dplyr, ggplot2, lme4, etc), UNIX commands (Basic), Hive (Basic), SQL, Microsoft Office.
+
 
 ## Side Projects
 • **LivestockCV:** Published an open source python library for those new to computer vision, undergraduates, veterinarians or animal scientists who wish to implement computer vision strategies on image and video of livestock animals.
