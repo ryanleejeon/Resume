@@ -36,18 +36,19 @@ August 2012 – June 2018
 ◦ **Machine Learning:** Implemented a Resnet34 classification model and a YOLOv5 object detection model on a custom image data set using image segmentation to strategize computer vision based solutions for pose estimation. Below are results from using a custom pig ear detector, to assess the ability to use the pig head as a clue to estimating the pose of the animal.
 
 <p align="center">
-  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251461-35aead94-e8b7-4b55-a7da-0f79f2722d5b.jpeg" width="200">
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251461-35aead94-e8b7-4b55-a7da-0f79f2722d5b.jpeg" width="350">
   
-  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251377-823b3dcb-3b0c-41de-9fa5-31f3c213d8a0.jpeg" width="200">
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141251377-823b3dcb-3b0c-41de-9fa5-31f3c213d8a0.jpeg" width="350">
 </p>
 
 
 ◦ **Estimation of Pig Body Pose:** Determined that body pose can be estimated by training the custom object detection model to identify the coordinates of the boundary box that encloses the pig head, to approximate the direction the pig was facing, by determining the side of the pig’s boundary box closest to the centroid of the head.
 <p align="center">
-    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256208-6a437048-849d-4760-aa04-6d75a0f87d7a.png" width="200">
+    <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256208-6a437048-849d-4760-aa04-6d75a0f87d7a.png" width="400">
   
-  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256211-5299f987-9591-4164-b061-3a3278fa5a7e.png" width="200">
-Image for boundary box coming soon from the head location outputs
+  <img alt="3" src="https://user-images.githubusercontent.com/69263707/141256211-5299f987-9591-4164-b061-3a3278fa5a7e.png" width="400">
+  
+-Image for boundary box coming soon-
 
 </p>
 
@@ -93,13 +94,21 @@ air temperature on six different body parts of the pig, for three different pig 
   
   Here is a plot to illustrate a small part of the time series data I was working with
 <p align="center">
-   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258697-9444b819-836c-4c04-b8b1-38dc7fdc8f17.png" width="350">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258697-9444b819-836c-4c04-b8b1-38dc7fdc8f17.png" width="650">
 
 </p>
 
 
 ### 3) Estimating Body Condition and Fitness of Swine using Computer Vision
-◦ **Feature Extraction:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry.
+◦ **Feature Extraction:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry. Below are some of the body measurement angles I estimated. 
+
+*For those unsure of why this is important...With over 23 million pigs housed across Iowa farms, the pork industry generates over 7 billion dollars to the Iowa economy each year, highlighting the swine industries valuable contribution to the economic vitality of Iowa. One of the most important biological factors that contribute to this prosperity is the reproductive success of the pigs. Improving the selection of gilts, or potential mother pigs, can return an estimated 23 million dollars back into the swine industry each year. The facts are clear: strong, healthy female pigs are a necessity for raising strong healthy piglets. One way we can measure body condition of the female pigs is by looking at the knee and feet angle.*
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141259292-0a836a18-850c-4302-a2f0-a76026e0e78c.png" width="550">
+
+</p>
+
 
 
 ◦ **Optimized Phenotyping:** Developed a geometric algorithm that demonstrated higher speed, precision (0.97), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
@@ -107,7 +116,7 @@ air temperature on six different body parts of the pig, for three different pig 
 Here is an award I received for my poster competition. I also was awarded the 3MT award for my graduate seminar course for this presentation. 
 
 <p align="center">
-   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258975-28b6d495-7776-4883-a256-6235049ad090.jpeg" width="350">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141258975-28b6d495-7776-4883-a256-6235049ad090.jpeg" width="450">
 
 </p>
 
@@ -124,13 +133,34 @@ Here is an award I received for my poster competition. I also was awarded the 3M
 ## Side Projects
 • **LivestockCV:** Published an open source python library for those new to computer vision, undergraduates, veterinarians or animal scientists who wish to implement computer vision strategies on image and video of livestock animals.
 
-• **Apple Watch Body Fat Percentage Tracker:** Visualization of body fat percent changes over a year, regressed against aggregated monthly averages of cardio using the Apple Watch API. Determined through a correlation matrix that increased cardio was associated with decreased body fat percentage. Developed code to further analyze personal cardiovascular activity recognition and classification over different sports and activities.
+• **Apple Watch Body Fat Percentage Tracker:** Visualization of body fat percent changes over a year, regressed against aggregated monthly averages of cardio using the Apple Watch API. Determined through a correlation matrix that increased cardio was associated with decreased body fat percentage. Developed code to further analyze personal cardiovascular activity recognition and classification over different sports and activities. Below is a correlation matrix I made using some fitness variables as well as two synthetic variables I created.
 
-• **Web Scraping Indeed.com:** Developed a user defined function to web scrape Indeed.com for specified jobs, locations, and important keywords. Outputs a .csv file of the job title, company name, job description, and the indeed.com job posting URL of the first 200 job entries. The job descriptions were further parsed using NLTK to remove stop words and output a histogram of the top twenty most frequently used words in the job description.
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141260284-49f231e7-25b4-427e-8e90-74094da8d9bc.png" width="650">
+
+</p>
+
+
+
+• **Web Scraping Indeed.com:** Developed a user defined function to web scrape Indeed.com for specified jobs, locations, and important keywords. Outputs a .csv file of the job title, company name, job description, and the indeed.com job posting URL of the first 200 job entries. The job descriptions were further parsed using NLTK to remove stop words and output a histogram of the top twenty most frequently used words in the job description. Below is the histogram.
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141259672-2e26cb42-d02a-4a37-8a86-4ac9bc26ca0e.png" width="650">
+
+</p>
 
 • **Automated Piglet Wellbeing Dashboard:** Designed an automated HVAC control dashboard for regulating ideal piglet temperatures on C++ using a PixyCam sensor and various different environmental sensors to prevent heat stress by holistically regulating the overall condition of the piglet. Increased temperatures and humidity would turn on an AC unit, while decreased temperatures would turn on a central heating pad for the piglets.
 
-• **Automated Fashion Color Palette:** Currently developing a sports fashion passion project program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender).
+
+• **Automated Fashion Color Palette:** Currently developing a sports fashion data mining program that can data mine different types of shoes from Nike and Adidas to output a color palette of each new shoe using KMeans clustering. Then this program will output a frequency plot to show based on the collected data, which colors are most used, to qualitatively answer the question, which colors are now in style for the season. Results are surprisingly different depending on the type of shoe (basketball vs cleats vs boots), season, and gender). Here is a subset of my dataset that I was able to create just from the Nike website.
+
+<p align="center">
+   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141259455-b559f0b1-1e2c-410d-a8df-9571fe30e1da.png" width="650">
+
+</p>
+
+
 
 ## Publications
 • **Effect of a Genetic Marker for the GBP5 Gene on Resilience to a Polymicrobial Natural Disease Challenge in Pigs:** https://doi.org/10.1016/j.livsci.2021.104399
