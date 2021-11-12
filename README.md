@@ -23,7 +23,7 @@ August 2012 – June 2018
 #### June 2021 - Present
 
 
-◦ **Machine Learning Object Detection and Activity Classification:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. The specific physical activity was further classified using machine learning techniques (Random Forest). Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
+◦ **Machine Learning Object Detection and Activity Classification:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. Utilized a PyTorch implementation of YOLOv3 to detect piglets (mAP = 0.91). Further classified piglet activity by using K-means on frame data (accuracy score = 0.79). Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
 
 <p align="center">
   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> 
@@ -85,7 +85,7 @@ Here is it segmented!
 
 
 
-### 2) Time Series of Analysis of Heat Treated Swine
+### 2) Time Series Analysis of Heat Treated Swine
 ◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly six hour road trips during the summer, to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data. 
 
 ◦ **Data Collection:** Created a polished time series dataset by pre-processing data and imputing missing values.
@@ -103,7 +103,9 @@ air temperature on six different body parts of the pig, for three different pig 
 
 
 ### 3) Estimating Body Condition and Fitness of Swine using Computer Vision
-◦ **Feature Extraction:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry. Below are some of the body measurement angles I estimated. 
+**Biomechanical Modeling:** Built a computer vision based system on Python using OpenCV to objectively calculate various body measurements of 100 pigs for optimized feature extraction. This method implemented image segmentation, contouring, skeletonizing, Douglas Peucker transformation, and trigonometry.
+
+**Optimized Phenotyping:** This algorithm was found to have higher accuracy (0.97), precision (0.99), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
 
 *For those unsure of why this is important...With over 23 million pigs housed across Iowa farms, the pork industry generates over 7 billion dollars to the Iowa economy each year, highlighting the swine industries valuable contribution to the economic vitality of Iowa. One of the most important biological factors that contribute to this prosperity is the reproductive success of the pigs. Improving the selection of gilts, or potential mother pigs, can return an estimated 23 million dollars back into the swine industry each year. The facts are clear: strong, healthy female pigs are a necessity for raising strong healthy piglets. One way we can measure body condition of the female pigs is by looking at the knee and feet angle.*
 
@@ -112,9 +114,6 @@ air temperature on six different body parts of the pig, for three different pig 
 
 </p>
 
-
-
-◦ **Optimized Phenotyping:** Developed a geometric algorithm that demonstrated higher speed, precision (0.97), and objectivity than data collected from manual body measurements, thereby modernizing and optimizing gilt selection practices in the swine industry.
 
 Here is an award I received for my poster competition. I also was awarded the 3MT award for my graduate seminar course for this presentation. 
 
