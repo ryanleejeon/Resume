@@ -23,7 +23,7 @@ August 2012 – June 2018
 #### June 2021 - Present
 
 
-◦ **Piglet Identifier and Tracking:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
+◦ **Machine Learning Object Detection and Activity Classification:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. The specific physical activity was further classified using machine learning techniques (Random Forest). Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
 
 <p align="center">
   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> 
@@ -85,7 +85,7 @@ Here is it segmented!
 
 
 
-### 2) Thermal Characterization of Heat Treated Swine
+### 2) Time Series of Analysis of Heat Treated Swine
 ◦ **Leadership:** Directed and managed a team of undergraduates on bimonthly six hour road trips during the summer, to an off campus swine research site for the setup of pigs and environmental sensors for the collection of environmental time series data. 
 
 ◦ **Data Collection:** Created a polished time series dataset by pre-processing data and imputing missing values.
