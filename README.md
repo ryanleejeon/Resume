@@ -23,7 +23,7 @@ August 2012 – June 2018
 #### June 2021 - Present
 
 
-◦ **Machine Learning Object Detection and Activity Classification:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. Utilized a PyTorch implementation of YOLOv3 to detect piglets (mAP = 0.91). Further classified piglet activity by using K-means on frame data (accuracy score = 0.79). Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
+◦ **Machine Learning Object Detection and Activity Classification:** Developed a computer vision based algorithm to identify a piglet and then quantify distance each pig moved using Python. Utilized a PyTorch implementation of YOLOv3 to detect piglets (mAP = 0.91). Below are two frames captured from a piglet object detector. What is not shown is that the algorithm also measures the pixel distance the centroid of each boundary box moves as the video progresses. Imagine a paintbrush in the center of each green box dragged along as the pig moves- that length is what we can measure.
 
 <p align="center">
   <img alt="3" src="https://user-images.githubusercontent.com/69263707/141250529-8dfa4294-dac8-4d75-8bc9-4ef034cf9f2e.png" width="420"> 
