@@ -3,18 +3,6 @@
 ## Programming Languages: 
 Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Seaborn, etc), R (dplyr, ggplot2, lme4, etc), UNIX commands (Basic), Hive (Basic), SQL, Microsoft Office.
 
-## Education:
-**Doctor of Philosophy (Ph.D.) in Agricultural Engineering** \
-Iowa State University \
-June 2020 – December 2022
-
-**Masters in Genetics and Genomics**\
-Iowa State University \
-August 2018 – June 2020
-
-**Bachelor of Science in Bioengineering** \
-The Ohio State University \
-August 2012 – June 2018
 
 
 ## Ph.D. Research Projects:
@@ -220,3 +208,20 @@ Station, Florida, March 14th, 2016
 • **First Place (Virtual), Three Minute Thesis:** Iowa State University, December 1st, 2020
 
 • **Elanco Animal Health Travel Fellowship:** North American PRRS Symposium, Chicago, Illinois, November 3, 2019
+
+
+
+
+
+## Education:
+**Doctor of Philosophy (Ph.D.) in Agricultural Engineering** \
+Iowa State University \
+June 2020 – December 2022
+
+**Masters in Genetics and Genomics**\
+Iowa State University \
+August 2018 – June 2020
+
+**Bachelor of Science in Bioengineering** \
+The Ohio State University \
+August 2012 – June 2018
