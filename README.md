@@ -1,4 +1,4 @@
-# Ryan Jeon, Ph.D. Student, Computer Vision and Data Science
+# Ryan Jeon, Ph.D. Student, Computer Vision (November 2021)
 
 ## Programming Languages: 
 Python (Pandas, Pytorch, matplotlib, scikit-learn, Tensorflow, OpenCV, nltk, Seaborn, etc), R (dplyr, ggplot2, lme4, etc), UNIX commands (Basic), Hive (Basic), SQL, Microsoft Office.
